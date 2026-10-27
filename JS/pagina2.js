@@ -3,7 +3,7 @@ function mostrarNombre () {
     if(nombre === null) {
         document.getElementById("saludo").textContent = "No hay ningun nombre guardado.";
     }
-    else{
+    else {
         document.getElementById("saludo").textContent = "Hola, " + nombre;
     }
 }
@@ -13,5 +13,5 @@ function borrar() {
     mostrarNombre();
 }
 
-document.addEventListener("DOMContentLoader", mostrarNombre);
+document.addEventListener("DOMContentLoaded", mostrarNombre);
 document.getElementById("btn-borrar").addEventListener("click", borrar);

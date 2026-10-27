@@ -1,0 +1,42 @@
+body{
+    background-image:-webkit-image-set(url(https://i.pinimg.com/736x/dc/9b/13/dc9b13871b708d517359926c1b06b808.jpg));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    color: yellowgreen;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    font-size:55px;
+}
+p{
+    color: yellowgreen;
+    font-size:25px;
+}
+button{
+    background-color: yellowgreen;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+a{
+    color: yellowgreen;
+    text-align: center;
+    -webkit-text-stroke: 0.5px black;
+    font-size:25px;
+}
+h3{
+    color: black;
+    text-align: center;
+    -webkit-text-stroke: 0.5px white;
+    font-size:25px;
+}
