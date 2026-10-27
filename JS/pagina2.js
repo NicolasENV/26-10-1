@@ -4,7 +4,7 @@ function mostrarNombre () {
         document.getElementById("saludo").textContent = "No hay ningun nombre guardado.";
     }
     else{
-        document.getElementById("saludo").textContent = "Hola, " +nombre;
+        document.getElementById("saludo").textContent = "Hola, " + nombre;
     }
 }
 
